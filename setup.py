@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="whtools",
-    version="0.0.4",
+    version="0.0.5",
     url="https://github.com/WHGhost/whtools",
     description='My python tools all in one package',
     long_description="""A random collection of python tools I make for various purpose packed together in a library""",
