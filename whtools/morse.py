@@ -170,7 +170,7 @@ def decode2bool(txt, lines=('-', '_'), dots=('.',), endletter=('/', ' '), endwor
         elif char in dots:
             letter.append(False)
         elif char in endletter:
-            if letter = []:
+            if letter == []:
                 seq.append(())
             else:
                 seq.append(tuple(letter))
