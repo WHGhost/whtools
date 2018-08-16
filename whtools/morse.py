@@ -93,7 +93,7 @@ def encode(txt, dot='.', line='_', delimiter='/'):
     output = ''
     
     for char in txt:
-        seq = morse.get(char)
+        seq = char2morse.get(char)
 
         if char == ' ':
             output += delimiter * 2
