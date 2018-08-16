@@ -134,7 +134,7 @@ def encode2bool(txt, endletter=3, endword=7):
         if char == ' ':
             output.extend((False,)*endword)
         else:
-            seq = morse.get(char)
+            seq = char2morse.get(char)
 
             if not char:
                 raise ValueError("Character '{}' cannot be encoded as morse".format(char))
