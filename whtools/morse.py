@@ -144,7 +144,7 @@ def encode2bool(txt, endletter=3, endword=7):
                 else:
                     output.append(True)
                 output.append(False)
-            output.extend((False,)*enletter)
+            output.extend((False,)*endletter)
 
     return tuple(output)
 
