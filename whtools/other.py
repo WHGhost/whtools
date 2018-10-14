@@ -15,7 +15,7 @@ def is_palindrome(arg):
     """
 
     if type(arg) == int:
-        return is_palindrome(str(arg, 10))
+        return is_palindrome(str(arg))
     elif type(arg) == str:
         if arg[::-1] == arg:
             return True
